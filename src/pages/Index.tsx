@@ -91,7 +91,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-8 flex items-center justify-between">
           <div>
             <div className="font-display text-xl font-light tracking-widest" style={{ color: "var(--color-pearl)" }}>
-              ARABESQUE
+              РИТМ
             </div>
             <div className="section-label" style={{ color: "var(--color-gold)", fontSize: "0.55rem", letterSpacing: "0.3em" }}>студия танцев</div>
           </div>
@@ -126,7 +126,7 @@ export default function Index() {
       {/* HERO */}
       <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={HERO_IMAGE} alt="Студия танцев Arabesque" className="w-full h-full object-cover" style={{ filter: "brightness(0.45)" }} />
+          <img src={HERO_IMAGE} alt="Студия танцев Ритм" className="w-full h-full object-cover" style={{ filter: "brightness(0.45)" }} />
           <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(26,23,20,0.6) 0%, rgba(26,23,20,0.2) 50%, rgba(26,23,20,0.7) 100%)" }} />
         </div>
 
@@ -136,7 +136,7 @@ export default function Index() {
           </div>
           <h1 className="font-display font-light mb-6 text-shadow-gold"
             style={{ fontSize: "clamp(3.5rem, 10vw, 8rem)", lineHeight: 1, color: "var(--color-pearl)", letterSpacing: "0.05em" }}>
-            Arabesque
+            Ритм
           </h1>
           <p className="font-body font-light mb-12 max-w-lg mx-auto"
             style={{ color: "rgba(245,241,236,0.7)", fontSize: "1.05rem", lineHeight: 1.8, letterSpacing: "0.02em" }}>
@@ -174,7 +174,7 @@ export default function Index() {
                 Искусство движения как образ жизни
               </h2>
               <p className="font-body font-light mb-6" style={{ color: "#4A4540", lineHeight: 2, fontSize: "0.95rem" }}>
-                Студия Arabesque была основана в 2012 году с одной целью — создать пространство, где каждый может открыть в себе танцора. Мы убеждены, что танец — это не привилегия избранных, а язык, доступный каждому.
+                Студия Ритм была основана в 2012 году с одной целью — создать пространство, где каждый может открыть в себе танцора. Мы убеждены, что танец — это не привилегия избранных, а язык, доступный каждому.
               </p>
               <p className="font-body font-light mb-10" style={{ color: "#4A4540", lineHeight: 2, fontSize: "0.95rem" }}>
                 Наши педагоги — действующие артисты и хореографы с международным опытом. Небольшие группы, индивидуальный подход и профессиональные залы создают идеальную среду для роста.
@@ -485,7 +485,7 @@ export default function Index() {
       <footer className="py-12 px-8" style={{ backgroundColor: "var(--color-charcoal)", borderTop: "1px solid rgba(184,146,74,0.2)" }}>
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <div className="font-display text-xl font-light tracking-widest" style={{ color: "var(--color-pearl)" }}>ARABESQUE</div>
+            <div className="font-display text-xl font-light tracking-widest" style={{ color: "var(--color-pearl)" }}>РИТМ</div>
             <div className="section-label mt-1" style={{ color: "rgba(245,241,236,0.3)" }}>студия танцев © 2026</div>
           </div>
 
