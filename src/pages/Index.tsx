@@ -503,17 +503,17 @@ export default function Index() {
           </div>
 
           <div className="flex gap-4">
-            {["Instagram", "Youtube", "MessageCircle"].map((social) => (
-              <button
-                key={social}
-                className="w-9 h-9 flex items-center justify-center transition-all duration-300"
-                style={{ border: "1px solid rgba(245,241,236,0.15)", color: "rgba(245,241,236,0.4)" }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = "var(--color-gold)"; e.currentTarget.style.color = "var(--color-gold)"; }}
-                onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(245,241,236,0.15)"; e.currentTarget.style.color = "rgba(245,241,236,0.4)"; }}
-              >
-                <Icon name={social as "Instagram"} size={14} />
-              </button>
-            ))}
+            <a
+              href="https://t.me/ddstudio_dance"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 flex items-center justify-center transition-all duration-300"
+              style={{ border: "1px solid rgba(245,241,236,0.15)", color: "rgba(245,241,236,0.4)" }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = "var(--color-gold)"; e.currentTarget.style.color = "var(--color-gold)"; }}
+              onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(245,241,236,0.15)"; e.currentTarget.style.color = "rgba(245,241,236,0.4)"; }}
+            >
+              <Icon name="Send" size={14} />
+            </a>
           </div>
         </div>
       </footer>
