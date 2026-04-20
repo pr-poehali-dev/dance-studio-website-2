@@ -148,7 +148,7 @@ export default function Index() {
           </div>
 
           <div className="mt-20 flex justify-center gap-16">
-            {[["12+", "лет опыта"], ["500+", "выпускников"], ["20+", "педагогов"]].map(([num, label]) => (
+            {[["12+", "лет опыта"], ["20+", "педагогов"]].map(([num, label]) => (
               <div key={label} className="text-center">
                 <div className="font-display font-light" style={{ fontSize: "2.5rem", color: "var(--color-gold-light)" }}>{num}</div>
                 <div className="section-label mt-1" style={{ color: "rgba(245,241,236,0.5)" }}>{label}</div>
