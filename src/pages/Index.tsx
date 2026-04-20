@@ -429,9 +429,9 @@ export default function Index() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div className="animate-on-scroll space-y-10">
               {[
-                { icon: "MapPin", label: "Адрес", value: "ул. Театральная, 14, 3-й этаж", sub: "Центр города, рядом с м. Площадь Революции" },
+                { icon: "MapPin", label: "Адрес", value: "Проспект Ленина, 55А", sub: "" },
                 { icon: "Phone", label: "Телефон", value: "+7 (922) 717-22-49", sub: "Ежедневно с 9:00 до 21:00" },
-                { icon: "Mail", label: "Email", value: "info@arabesque-studio.ru", sub: "Ответим в течение часа" },
+                { icon: "Mail", label: "Email", value: "dariaivashina@internet.ru", sub: "Ответим в течение часа" },
                 { icon: "Clock", label: "Часы работы", value: "Пн–Пт: 10:00–22:00", sub: "Сб–Вс: 10:00–20:00" },
               ].map(({ icon, label, value, sub }) => (
                 <div key={label} className="flex items-start gap-6">
