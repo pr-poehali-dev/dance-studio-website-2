@@ -430,7 +430,7 @@ export default function Index() {
             <div className="animate-on-scroll space-y-10">
               {[
                 { icon: "MapPin", label: "Адрес", value: "ул. Театральная, 14, 3-й этаж", sub: "Центр города, рядом с м. Площадь Революции" },
-                { icon: "Phone", label: "Телефон", value: "+7 (495) 000-00-00", sub: "Ежедневно с 9:00 до 21:00" },
+                { icon: "Phone", label: "Телефон", value: "+7 (922) 717-22-49", sub: "Ежедневно с 9:00 до 21:00" },
                 { icon: "Mail", label: "Email", value: "info@arabesque-studio.ru", sub: "Ответим в течение часа" },
                 { icon: "Clock", label: "Часы работы", value: "Пн–Пт: 10:00–22:00", sub: "Сб–Вс: 10:00–20:00" },
               ].map(({ icon, label, value, sub }) => (
